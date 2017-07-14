@@ -1,0 +1,6 @@
+1. filter athlete   done
+2. Ajax call + api 
+3. team => player 
+4. search athlete
+5. home page
+6. router

@@ -1,0 +1,24 @@
+@import "../../scss/style.scss";
+
+.athleteDetails{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: $primary;
+    border-radius: 5px;
+    color: white;
+
+    img{
+        width:70%;
+        height:auto;
+        border-radius: 5px;
+    }
+    div{
+    
+        margin-left: -9%;
+        margin-right: 6%;
+        h2{
+            color: white;
+        }
+        // color: white;
+    }
+}

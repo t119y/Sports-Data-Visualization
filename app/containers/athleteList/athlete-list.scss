@@ -1,0 +1,17 @@
+@import "../../scss/style.scss";
+
+.athleteList_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: $primary;
+    .athleteList{
+        background-color: $primary;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+        display: inline
+    }
+}

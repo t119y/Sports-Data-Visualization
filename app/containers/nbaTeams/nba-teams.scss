@@ -1,0 +1,42 @@
+@import "../../scss/style.scss";
+
+
+// .nbaTeam_box {
+//   background-color: #444;
+//   color: #fff;
+//   border-radius: 5px;
+//   padding: 20px;
+//   font-size: 100%;
+// }
+
+// .nbaTeam_box:nth-child(even) {
+//   background-color: #ccc;
+//   color: #000;
+// }
+
+.nbaTeam_wrapper {
+  margin-top:1%; 
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-flow: column, row;
+  div{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+  }
+  div:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: 600px)   {
+    .nbaTeam_wrapper {
+        grid-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-flow: row;
+        }
+    }
